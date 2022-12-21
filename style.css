@@ -174,19 +174,21 @@ main {
 .buy-sell {
     padding: 0 25px;
     margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 49% 49%;
 }
 
 .buy-sell .buy {
     font-weight: 500;
     border: 1px solid #6BE791;
-    padding: 13px 49px;
+    padding: 0.813rem 2.5rem;
     background: #f0fcf3;
     border-radius: 10px;
 }
 
 .buy-sell .sell {
     border: 1px solid #e7e3e3;
-    padding: 13px 49px;
+    padding: 0.813rem 2.5rem;
     /* background: #e7e3e3; */
     border-radius: 10px;
 }
@@ -262,10 +264,15 @@ main {
     padding: 10px 0;
     margin-top: 30px;
     border-radius: 15px;
+    background: transparent;
 }
 
 .p-order:hover {
     background-image: linear-gradient(to right, #595FEA, white);
+}
+
+.p-order:focus {
+    background: #595FEA;
 }
 
 /* section-2 */
@@ -335,9 +342,8 @@ main {
     opacity: 0.8;
 }
 
-.graph img {
-    width: 250px;
-    padding-left: 12%;
+.graph-images {
+    width: 15.625rem;
 }
 
 .graph-list {
@@ -457,9 +463,17 @@ main {
     margin-bottom: 10px;
 }
 
+.side1-item1:hover {
+    background: #BE86F9;
+}
+
 .side2-item1 {
     /* padding-right: 15px; */
     margin-bottom: 10px;
+}
+
+.side2-item1:hover {
+    background: #BE86F9;
 }
 
 .hipen {
@@ -504,15 +518,22 @@ thead {
     background: #f1f1f8;
 }
 
+tbody tr:hover {
+    background: #faf5f5;
+}
+
 thead tr td p {
-    font-size: 13px;
+    font-size: 0.625rem;
     font-weight: 400;
     margin-bottom: 0;
+}
 
+tbody tr td p:hover {
+    font-weight: 700;
 }
 
 tbody tr td p {
-    font-size: 13px;
+    font-size: 0.625rem;
     font-weight: 400;
     margin-bottom: 0;
 }
