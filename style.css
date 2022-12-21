@@ -298,9 +298,9 @@ main {
     margin-bottom: 10px;
 }
 
-.social-links {
+.ghad-tera {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     margin-top: 15px;
 }
 
@@ -308,7 +308,7 @@ main {
     padding: 4px 10px;
     border-radius: 15px;
     display: inline-block;
-    font-size: 14px;
+    font-size: 87.5%;
     margin-bottom: 10px;
 }
 
@@ -321,7 +321,7 @@ main {
 }
 
 .links-3 {
-    width: 95%;
+    width: 45%;
 }
 
 
@@ -343,7 +343,7 @@ main {
 }
 
 .graph-images {
-    width: 15.625rem;
+    margin: 0 auto;
 }
 
 .graph-list {
@@ -464,7 +464,7 @@ main {
 }
 
 .side1-item1:hover {
-    background: #BE86F9;
+    background: #e2d5f0;
 }
 
 .side2-item1 {
@@ -473,7 +473,7 @@ main {
 }
 
 .side2-item1:hover {
-    background: #BE86F9;
+    background: #e2d5f0;
 }
 
 .hipen {
@@ -533,7 +533,7 @@ tbody tr td p:hover {
 }
 
 tbody tr td p {
-    font-size: 0.625rem;
+    font-size: 11px;
     font-weight: 400;
     margin-bottom: 0;
 }
