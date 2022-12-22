@@ -526,4 +526,12 @@ tbody tr td p {
     background: #e7e3e3;
 }
 
+.buy-color {
+    color: #6BE791;
+}
+
+.sell-color {
+    color: #FF5858;
+}
+
 /* main section end */
