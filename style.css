@@ -153,17 +153,20 @@ main {
     margin: 0 20px;
     border: 1px solid #e7e3e3;
     border-radius: 18px;
-    padding: 6px 5px;
+    padding: 6px 10px;
     margin-bottom: 30px;
 }
 
-.limit-market-stop p {
-    margin: 0;
-    padding: 6px 22px;
-    border-radius: 10px;
+.btn-first {
+    background: #e7e3e3;
 }
 
-.limit-market-stop p:hover {
+.three-btn {
+    border-radius: 7px;
+    padding: 3px 15px;
+}
+
+.three-btn:hover {
     background: #e7e3e3;
 }
 
@@ -298,32 +301,13 @@ main {
     margin-bottom: 10px;
 }
 
-.ghad-tera {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-top: 15px;
+.three-idiot {
+    background: #e7e3e3;
+    border-radius: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 14px;
 }
-
-.links-text {
-    padding: 4px 10px;
-    border-radius: 15px;
-    display: inline-block;
-    font-size: 87.5%;
-    margin-bottom: 10px;
-}
-
-.links-1 {
-    width: 85%;
-}
-
-.links-2 {
-    width: 70%;
-}
-
-.links-3 {
-    width: 45%;
-}
-
 
 .link-btn-1 {
     text-decoration: none;
@@ -401,17 +385,18 @@ main {
 .section-3-top {
     width: 43%;
     margin: 8px 0 27px 6px;
-    padding: 5px 0 5px 15px;
+    padding: 5px 8px;
     border: 1px solid #e7e3e3;
     border-radius: 20px;
 }
 
-.section-3-top p {
+.fourth-btn {
     padding: 5px 13px;
     border-radius: 13px;
+    font-size: 0.75rem;
 }
 
-.section-3-top p:hover {
+.fourth-btn:hover {
     background: #e7e3e3;
 }
 
@@ -464,7 +449,9 @@ main {
 }
 
 .side1-item1:hover {
-    background: #faf5f5;
+    background: #fcd691;
+    border-top: 1px solid #fdb93a;
+    border-bottom: 1px solid #fdb93a;
 }
 
 .side2-item1 {
@@ -473,7 +460,9 @@ main {
 }
 
 .side2-item1:hover {
-    background: #faf5f5;
+    background: #fcd691;
+    border-top: 1px solid #fdb93a;
+    border-bottom: 1px solid #fdb93a;
 }
 
 .hipen {
@@ -490,27 +479,18 @@ main {
 
 .history-option {
     border: 1px solid #e7e3e3;
-    width: 43.7%;
+    width: 46%;
     border-radius: 15px;
     margin-left: 10px;
     padding: 5px 5px;
     margin-bottom: 10px;
 }
 
-.history-option p {
-    font-size: 12.5px;
+.last-three-btn {
+    font-size: 9px;
 }
 
-.ho-item1 {
-    background: #e7e3e3;
-    border-radius: 10px;
-}
-
-.ho-item2 {
-    border-radius: 10px;
-}
-
-.ho-item2:hover {
+.last-three-btn:hover {
     background: #e7e3e3;
 }
 
@@ -519,7 +499,9 @@ thead {
 }
 
 tbody tr:hover {
-    background: #faf5f5;
+    background: #fcd691;
+    border-top: 1px solid #fdb93a;
+    border-bottom: 1px solid #fdb93a;
 }
 
 thead tr td p {
@@ -528,9 +510,9 @@ thead tr td p {
     margin-bottom: 0;
 }
 
-tbody tr td p:hover {
+/* tbody tr td p:hover {
     font-weight: 700;
-}
+} */
 
 tbody tr td p {
     font-size: 11px;

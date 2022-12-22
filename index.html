@@ -109,9 +109,11 @@
                 </div>
             </div>
             <div class="limit-market-stop d-flex justify-content-between align-items-center">
-                <p class="limit">Limit</p>
-                <p class="market">Market</p>
-                <p class="stop">Stop</p>
+                <button type="button" class="btn three-btn active btn-first" data-bs-toggle="button" autocomplete="off"
+                    aria-pressed="true">Limit</button>
+                <!-- <button type="button" class="btn active three-btn">Limit</button> -->
+                <button type="button" class="btn three-btn">Market</button>
+                <button type="button" class="btn three-btn">Stop</button>
             </div>
             <div class="buy-sell gap-2">
                 <button class="btn buy">BUY</button>
@@ -161,100 +163,89 @@
                     is an open-source project
                     that is not owned or operated by a single individual. This means that anyone, anywhere can download
                     the software and begin interacting with the network. Ethereum allows developers to make and operate
-                    'smart contracts' habi jabi hen ten.</p>
-                <div class="social-links gap-2">
-                    <div class="ghad-tera">
-                        <div class="links-text links-1 bg-light d-flex align-items-center gap-2 shadow">
-                            <a type="button" class="link-btn-1">Whitepaper</a>
-                            <img src="images/links arrow.svg" alt="">
+                    'smart contracts'.</p>
+                <div class="social-links mt-3">
+                    <button type="button" class="btn three-idiot shadow-sm">WhitePaper <img src="images/links arrow.svg"
+                            alt=""></button>
+                    <button type="button" class="btn three-idiot shadow-sm">Website <img src="images/links arrow.svg"
+                            alt=""></button>
+                    <button type="button" class="btn three-idiot shadow-sm mt-2">Contract link <img
+                            src="images/links arrow.svg" alt=""></button>
+                    <p class="links-underline"></p>
+                    <p class="g-text">Yielding Assets</p>
+                    <div class="graph">
+                        <div class="graph-images">
+                            <img src="images/graph.svg" alt="">
                         </div>
-                        <div class="links-text links-2 bg-light d-flex align-items-center gap-2 shadow">
-                            <a type="button" class="link-btn-1">Website</a>
-                            <img src="images/links arrow.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="links-text links-3 bg-light d-flex align-items-center gap-2 shadow">
-                        <a type="button" class="link-btn-1">Contract Link</a>
-                        <img src="images/links arrow.svg" alt="">
-                    </div>
+                        <div class="graph-list">
+                            <div class="g-all-list g-all-list-1 d-flex justify-content-between align-items-center">
+                                <div class="dot-text d-flex align-items-center gap-3">
+                                    <p class="list-dot list-dot-1 m-0"></p>
+                                    <p class="m-0">Ethereum</p>
+                                </div>
+                                <p class="m-0"> + 56%</p>
+                            </div>
 
+                            <div class="g-all-list g-all-list-2 d-flex justify-content-between align-items-center">
+                                <div class="dot-text d-flex align-items-center gap-3">
+                                    <p class="list-dot list-dot-2 m-0"></p>
+                                    <p class="m-0">Frax</p>
+                                </div>
+                                <p class="m-0"> + 69%</p>
+                            </div>
+                            <div class="g-all-list g-all-list-3 d-flex justify-content-between align-items-center">
+                                <div class="dot-text d-flex align-items-center gap-3">
+                                    <p class="list-dot list-dot-3 m-0"></p>
+                                    <p class="m-0">USD Coin</p>
+                                </div>
+                                <p class="m-0"> + 12%</p>
+                            </div>
+                            <div class="g-all-list g-all-list-4 d-flex justify-content-between align-items-center">
+                                <div class="dot-text d-flex align-items-center gap-3">
+                                    <p class="list-dot list-dot-4 m-0"></p>
+                                    <p class="m-0">Tether</p>
+                                </div>
+                                <p class="m-0"> + 38%</p>
+                            </div>
+                            <div class="g-all-list g-all-list-1 d-flex justify-content-between align-items-center">
+                                <div class="dot-text d-flex align-items-center gap-3">
+                                    <p class="list-dot list-dot-5 m-0"></p>
+                                    <p class="m-0">USD Coin</p>
+                                </div>
+                                <p class="m-0"> + 49%</p>
+                            </div>
 
-                </div>
-                <p class="links-underline"></p>
-                <p class="g-text">Yielding Assets</p>
-                <div class="graph">
-                    <div class="graph-images">
-                        <img src="images/graph.svg" alt="">
-                    </div>
-                    <div class="graph-list">
-                        <div class="g-all-list g-all-list-1 d-flex justify-content-between align-items-center">
-                            <div class="dot-text d-flex align-items-center gap-3">
-                                <p class="list-dot list-dot-1 m-0"></p>
-                                <p class="m-0">Ethereum</p>
+                            <div class="g-all-list g-all-list-2 d-flex justify-content-between align-items-center">
+                                <div class="dot-text d-flex align-items-center gap-3">
+                                    <p class="list-dot list-dot-6 m-0"></p>
+                                    <p class="m-0">Ethereum</p>
+                                </div>
+                                <p class="m-0"> + 29%</p>
                             </div>
-                            <p class="m-0"> + 56%</p>
-                        </div>
-
-                        <div class="g-all-list g-all-list-2 d-flex justify-content-between align-items-center">
-                            <div class="dot-text d-flex align-items-center gap-3">
-                                <p class="list-dot list-dot-2 m-0"></p>
-                                <p class="m-0">Frax</p>
+                            <div class="g-all-list g-all-list-3 d-flex justify-content-between align-items-center">
+                                <div class="dot-text d-flex align-items-center gap-3">
+                                    <p class="list-dot list-dot-7 m-0"></p>
+                                    <p class="m-0">Frax</p>
+                                </div>
+                                <p class="m-0"> + 41%</p>
                             </div>
-                            <p class="m-0"> + 69%</p>
-                        </div>
-                        <div class="g-all-list g-all-list-3 d-flex justify-content-between align-items-center">
-                            <div class="dot-text d-flex align-items-center gap-3">
-                                <p class="list-dot list-dot-3 m-0"></p>
-                                <p class="m-0">USD Coin</p>
+                            <div class="g-all-list g-all-list-4 d-flex justify-content-between align-items-center">
+                                <div class="dot-text d-flex align-items-center gap-3">
+                                    <p class="list-dot list-dot-8 m-0"></p>
+                                    <p class="m-0">Tether</p>
+                                </div>
+                                <p class="m-0"> + 76%</p>
                             </div>
-                            <p class="m-0"> + 12%</p>
-                        </div>
-                        <div class="g-all-list g-all-list-4 d-flex justify-content-between align-items-center">
-                            <div class="dot-text d-flex align-items-center gap-3">
-                                <p class="list-dot list-dot-4 m-0"></p>
-                                <p class="m-0">Tether</p>
-                            </div>
-                            <p class="m-0"> + 38%</p>
-                        </div>
-                        <div class="g-all-list g-all-list-1 d-flex justify-content-between align-items-center">
-                            <div class="dot-text d-flex align-items-center gap-3">
-                                <p class="list-dot list-dot-5 m-0"></p>
-                                <p class="m-0">USD Coin</p>
-                            </div>
-                            <p class="m-0"> + 49%</p>
-                        </div>
-
-                        <div class="g-all-list g-all-list-2 d-flex justify-content-between align-items-center">
-                            <div class="dot-text d-flex align-items-center gap-3">
-                                <p class="list-dot list-dot-6 m-0"></p>
-                                <p class="m-0">Ethereum</p>
-                            </div>
-                            <p class="m-0"> + 29%</p>
-                        </div>
-                        <div class="g-all-list g-all-list-3 d-flex justify-content-between align-items-center">
-                            <div class="dot-text d-flex align-items-center gap-3">
-                                <p class="list-dot list-dot-7 m-0"></p>
-                                <p class="m-0">Frax</p>
-                            </div>
-                            <p class="m-0"> + 41%</p>
-                        </div>
-                        <div class="g-all-list g-all-list-4 d-flex justify-content-between align-items-center">
-                            <div class="dot-text d-flex align-items-center gap-3">
-                                <p class="list-dot list-dot-8 m-0"></p>
-                                <p class="m-0">Tether</p>
-                            </div>
-                            <p class="m-0"> + 76%</p>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
         <section class="section-3">
-            <div class="section-3-top d-flex align-items-center gap-1 inline-block">
-                <p class="m-0">Price</p>
-                <p class="m-0">Depth</p>
-                <p class="m-0 fw-bolder book-active">Book</p>
-                <p class="m-0">Trades</p>
+            <div class="section-3-top d-flex justify-content-between">
+                <button type="button" class="btn fourth-btn">Price</button>
+                <button type="button" class="btn fourth-btn">Depth</button>
+                <button type="button" class="btn fourth-btn book-active fw-bolder">Book</button>
+                <button type="button" class="btn fourth-btn">Trade</button>
             </div>
             <div class="two-siders">
                 <section class="left-side">
@@ -437,13 +428,11 @@
                     </section>
                 </section>
             </div>
-            <div class="history-option d-flex  align-items-center gap-1">
-                <div class="ho-item1 py-1 px-2 d-flex align-items-center">
-                    <p class="fw-bolder m-0">Open Orders</p>
-                    <p class="m-0">(10)</p>
-                </div>
-                <p class="m-0 py-1 px-2 ho-item2">Order History</p>
-                <p class="m-0 py-1 px-2 ho-item2">Trade History</p>
+            <div class="history-option d-flex justify-content-between">
+                <button type="button" class="btn last-three-btn fw-bolder book-active">Open Orders
+                    <span>(10)</span></button>
+                <button type="button" class="btn last-three-btn">Order History</button>
+                <button type="button" class="btn last-three-btn">Trade History</button>
             </div>
             <!-- last tables -->
             <table class="table table-borderless">
